@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.0.1)
+  - SDAutoLayout (2.1.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.0)
+  - SDAutoLayout (~> 2.1.1)
+  - SDWebImage (~> 3.7.6)
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SDAutoLayout: ddf39b38dbd793a4802c8feb6429096aea4aa658
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 3ac2e4c4bdfcc0dd802650d225e8b699aa1cec7c
+
+COCOAPODS: 1.0.0

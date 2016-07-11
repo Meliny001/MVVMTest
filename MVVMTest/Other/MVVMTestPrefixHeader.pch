@@ -1,0 +1,28 @@
+//
+//  MVVMTestPrefixHeader.pch
+//  MVVMTest
+//
+//  Created by HYG_IOS on 16/7/11.
+//  Copyright © 2016年 magic. All rights reserved.
+//
+
+#ifndef MVVMTestPrefixHeader_pch
+#define MVVMTestPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+SDAutoLayout.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+#import "UIView+YYAdd.h"
+
+//
+#define ZGWindowWidth ([[UIScreen mainScreen] bounds].size.width)
+
+#define ZGWindowHeight ([[UIScreen mainScreen] bounds].size.height)
+
+#define ZGColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+//
+
+#endif /* MVVMTestPrefixHeader_pch */
